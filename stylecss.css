@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080808;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #bdbdbd;
+    max-width: 650px;
+}
+
+.conteudo h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.conteudo > p {
+    color: #bdbdbd;
+    margin-bottom: 35px;
+}
+
+.topico {
+    padding: 25px 0;
+    border-bottom: 1px solid #242424;
+}
+
+.topico h3 {
+    color: #b026ff;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.topico p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.codigo {
+    background-color: #111111;
+    border: 1px solid #292929;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 14px 16px;
+    gap: 15px;
+}
+
+.codigo code {
+    color: #b026ff;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    overflow-x: auto;
+}
+
+.btn-copiar {
+    background-color: transparent;
+    color: #ffffff;
+
+    border: 1px solid #b026ff;
+    border-radius: 6px;
+
+    padding: 7px 13px;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-copiar:hover {
+    background-color: #b026ff;
+    color: #000000;
+}
+
+@media (max-width: 600px) {
+
+    main {
+        width: 92%;
+        padding: 40px 0;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    .codigo {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .btn-copiar {
+        width: 100%;
+    }
+
+}

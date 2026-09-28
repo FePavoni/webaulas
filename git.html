@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleGit.css">
+    <title>Git | Aprenda</title>
+
+    
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <h1>Git</h1>
+
+            <p>
+                Consulte os principais comandos do Git
+                e entenda para que cada um deles serve.
+            </p>
+        </header>
+
+
+        <section class="conteudo">
+
+            <h2>Comandos essenciais</h2>
+
+            <p>
+                Use esta página como uma consulta rápida
+                durante seus estudos e projetos.
+            </p>
+
+
+            <!-- GIT CONFIG -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>1. Configurar seu nome</h3>
+
+                    <p>
+                        Define o nome que será associado
+                        aos seus commits no Git.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git config --global user.name "Seu Nome"
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- GIT EMAIL -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>2. Configurar seu e-mail</h3>
+
+                    <p>
+                        Define o e-mail que será associado
+                        aos seus commits.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git config --global user.email "seu@email.com"
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- GIT INIT -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>3. Criar um repositório</h3>
+
+                    <p>
+                        Inicia um novo repositório Git
+                        dentro da pasta atual.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git init
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- GIT ADD -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>4. Adicionar arquivos</h3>
+
+                    <p>
+                        Adiciona os arquivos para serem
+                        incluídos no próximo commit.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git add .
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- GIT COMMIT -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>5. Criar um commit</h3>
+
+                    <p>
+                        Registra as alterações adicionadas
+                        no histórico do projeto.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git commit -m "Primeiro commit"
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- GIT REMOTE -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>6. Conectar ao GitHub</h3>
+
+                    <p>
+                        Conecta o repositório local ao
+                        repositório criado no GitHub.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git remote add origin URL_DO_REPOSITORIO
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- GIT BRANCH -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>7. Definir a branch principal</h3>
+
+                    <p>
+                        Define a branch principal do projeto
+                        como <strong>main</strong>.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git branch -M master
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- GIT PUSH -->
+
+            <article class="comando">
+
+                <div class="comando-info">
+
+                    <h3>8. Enviar para o GitHub</h3>
+
+                    <p>
+                        Envia os commits do seu computador
+                        para o repositório remoto.
+                    </p>
+
+                </div>
+
+
+                <div class="codigo">
+
+                    <code>
+                        git push -u origin master
+                    </code>
+
+                    <button class="btn-copiar">
+                        Copiar
+                    </button>
+
+                </div>
+
+                <div class="nota">
+                    <h2>OBS: </h2>
+                    <p>
+                        main também é um nome comum para a branch principal. O nome utilizado pode variar conforme o projeto.
+                    </p>
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
